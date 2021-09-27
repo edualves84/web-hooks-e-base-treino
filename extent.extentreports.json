@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1967573800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startTestCaneta()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "consulta caneta azul",
+        "description": "",
+        "id": "consultar-caneta;consulta-caneta-azul",
+        "after": [
+          {
+            "result": {
+              "duration": 597321500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.QuitTestCaneta()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1464184700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que acesso o mercado livre",
+            "match": {
+              "location": "webSteps.queAcessoOMercadoLivre()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2527116100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clico no campo de pesquisa e escrevo \"caneta azul\" e pressiono enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "caneta azul",
+                  "offset": 38
+                }
+              ],
+              "location": "webSteps.clicoNoCampoDePesquisaEEscrevoEPressionoEnter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645746700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "retorna lista de \"caneta azul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "caneta azul",
+                  "offset": 18
+                }
+              ],
+              "location": "webSteps.retornaListaDe(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "consultar caneta",
+    "description": "",
+    "id": "consultar-caneta",
+    "keyword": "Feature",
+    "uri": "caneta.feature"
+  }
+]
